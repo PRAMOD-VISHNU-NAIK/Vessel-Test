@@ -1,3 +1,4 @@
 # app/__init__.py
 
-from .addition import *
+from .addition import add
+from .addition import addThree
