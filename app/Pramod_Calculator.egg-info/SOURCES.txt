@@ -1,0 +1,10 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+version.py
+app/pramodCalculator.py
+app/Pramod_Calculator.egg-info/PKG-INFO
+app/Pramod_Calculator.egg-info/SOURCES.txt
+app/Pramod_Calculator.egg-info/dependency_links.txt
+app/Pramod_Calculator.egg-info/entry_points.txt
+app/Pramod_Calculator.egg-info/top_level.txt

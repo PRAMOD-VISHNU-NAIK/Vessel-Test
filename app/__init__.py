@@ -1,4 +1,4 @@
 # app/__init__.py
 
-from .addition import add
-from .addition import addThree
+from .pramodCalculator import add
+from .pramodCalculator import addThree
