@@ -1,7 +1,16 @@
-# app/addition.py
+import sys
 
 def add(a, b):
-    return a + b
+    return int(a) + int(b)
 
-def addThree(a, b, c):
-    return a + b +c
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: addition <a> <b>")
+        sys.exit(1)
+    a = sys.argv[1]
+    b = sys.argv[2]
+    result = add(a, b)
+    print(f"The result is: {result}")
+
+if __name__ == "__main__":
+    main()

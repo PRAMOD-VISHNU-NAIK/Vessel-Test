@@ -20,7 +20,7 @@ setup(
     py_modules=['addition'],            # THis specifies that the addition module should be included in the distribution. This assumes that there is an addition.py file directly in the app directory.
     entry_points={                      #The entry_points argument specifies that a console script named addition should be created, which will execute the add function from the addition module when called.
         'console_scripts': [
-            'addition = addition:add',
+            'addition = addition:main',
         ],
     },
 )

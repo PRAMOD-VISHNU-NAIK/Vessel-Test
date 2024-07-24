@@ -1,2 +1,2 @@
 [console_scripts]
-addition = addition:add
+addition = addition:main
