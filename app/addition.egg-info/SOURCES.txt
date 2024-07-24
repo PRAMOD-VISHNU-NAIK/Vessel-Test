@@ -1,7 +1,10 @@
+MANIFEST.in
 pyproject.toml
 setup.py
+version.py
 app/addition.py
 app/addition.egg-info/PKG-INFO
 app/addition.egg-info/SOURCES.txt
 app/addition.egg-info/dependency_links.txt
+app/addition.egg-info/entry_points.txt
 app/addition.egg-info/top_level.txt

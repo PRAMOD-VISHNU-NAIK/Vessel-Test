@@ -1,0 +1,2 @@
+[console_scripts]
+addition = addition:add
