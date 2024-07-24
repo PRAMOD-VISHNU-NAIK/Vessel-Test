@@ -38,8 +38,8 @@ jobs:
           echo "new_version=$new_version" >> $GITHUB_ENV
       - name: Commit and push updated version.py
         run: |
-          git config --global user.email "pramod.naik@pfizer.com"
-          git config --global user.name "NAIKP19"
+          git config --global user.email "pammunaik99.51solution@gmail.com"
+          git config --global user.name "Pramod Naik"
           git add version.py
           git commit -m "Bump version to ${{ env.new_version }}"
           git push
